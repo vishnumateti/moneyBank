@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.medium-container-section {
+  display: flex;
+  width: 900px;
+  justify-content: space-between;
+}
+.container-1 {
+  background-color: #84cc16;
+  border: 0px none transparent;
+  border-radius: 8px;
+  display: flex;
+  width: 250px;
+}
+.container-2 {
+  background-color: #cffafe;
+  border: 0px none transparent;
+  border-radius: 8px;
+  display: flex;
+  width: 250px;
+}
+.container-3 {
+  background-color: #06b6d4;
+  border: 0px none transparent;
+  border-radius: 8px;
+  display: flex;
+  width: 250px;
+}
+.image {
+  height: 60px;
+  width: 60px;
+}

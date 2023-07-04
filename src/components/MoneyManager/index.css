@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.top-section {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border: 0px none transparent;
+  border-radius: 10px;
+}
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.history-container {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.history-payment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  list-style-type: none;
+}
