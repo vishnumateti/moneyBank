@@ -1,31 +1,58 @@
 /* Write your CSS here */
-.medium-container-section {
+
+.money-details-section {
+  width: 60%;
+  box-sizing: border-box;
   display: flex;
-  width: 900px;
   justify-content: space-between;
 }
 .container-1 {
-  background-color: #84cc16;
-  border: 0px none transparent;
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
   border-radius: 8px;
+  width: 33%;
+  height: 120px;
+  padding: 20px;
   display: flex;
-  width: 250px;
+  justify-content: space-around;
+  align-items: center;
 }
 .container-2 {
   background-color: #cffafe;
-  border: 0px none transparent;
+  border: 1px solid #06b6d4;
   border-radius: 8px;
+  width: 33%;
+  height: 120px;
+  padding: 20px;
   display: flex;
-  width: 250px;
+  justify-content: space-around;
+  align-items: center;
 }
 .container-3 {
-  background-color: #06b6d4;
-  border: 0px none transparent;
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
   border-radius: 8px;
+  width: 33%;
+  height: 120px;
+  padding: 20px;
   display: flex;
-  width: 250px;
+  justify-content: space-around;
+  align-items: center;
 }
 .image {
-  height: 60px;
-  width: 60px;
+  height: 80px;
+  width: 80px;
+}
+.heading {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.balance {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 28px;
+}
+.balance-container {
+  margin-top: 10px;
 }

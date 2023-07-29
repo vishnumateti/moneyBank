@@ -1,11 +1,13 @@
 /* Write your CSS here */
 .list-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 300px;
   list-style-type: none;
+  border: 1px solid #cbd5e1;
+  padding: 6px;
 }
-.button {
+.del-button {
   background-color: transparent;
   border: 0px none transparent;
 }
