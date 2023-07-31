@@ -1,11 +1,10 @@
 /* Write your CSS here */
-.list-container {
+.list-container1 {
   display: flex;
   justify-content: space-around;
-  width: 300px;
+  width: 240px;
   list-style-type: none;
   border: 1px solid #cbd5e1;
-  padding: 6px;
 }
 .del-button {
   background-color: transparent;
@@ -14,4 +13,14 @@
 .delete-image {
   height: 30px;
   width: 30px;
+}
+@media (min-width: 768px) {
+  .list-container1 {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    list-style-type: none;
+    border: 1px solid #cbd5e1;
+    padding: 6px;
+  }
 }

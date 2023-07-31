@@ -1,5 +1,7 @@
 /* Write your CSS here */
-
+* {
+  box-sizing: border-box;
+}
 .bg-container {
   height: 100vh;
   width: 100%;
@@ -15,8 +17,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   box-sizing: border-box;
-  width: 80%;
-  padding: 20px;
+  width: 90%;
 }
 
 .top-section {
@@ -24,9 +25,7 @@
   background-size: cover;
   border: 0px none transparent;
   border-radius: 10px;
-  padding: 30px;
-  width: 60%;
-  box-sizing: border-box;
+  width: 90%;
 }
 .heading {
   color: #475569;
@@ -40,10 +39,10 @@
 
 .bottom-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-  width: 60%;
-  padding: 30px;
+  width: 90%;
+  margin-top: 20px;
 }
 .form-container {
   display: flex;
@@ -52,17 +51,18 @@
   border-radius: 6px;
   padding: 30px;
   margin-right: 30px;
-  width: 40%;
+  width: 100%;
 }
 .history-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  align-items: flex-start;
   border: 1px solid #cbd5e1;
   border-radius: 6px;
   padding: 30px;
-  margin-left: 20px;
-  width: 60%;
+  margin-top: 10px;
+  width: 100%;
 }
 .history-payment-container {
   display: flex;
@@ -70,27 +70,31 @@
   justify-content: space-between;
   width: 300px;
 }
-
+.history-list-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
 .list-container {
   display: flex;
   justify-content: space-around;
-  width: 90%;
   list-style-type: none;
+  width: 240px;
   border: 1px solid #cbd5e1;
-  padding: 6px;
+  flex-wrap: wrap;
 }
 .title {
   color: #1e293b;
   font-family: 'Roboto';
   font-weight: bold;
 }
-.type {
-  margin-right: 110px;
-}
+
 .history {
   color: #475569;
   font-family: 'Roboto';
-  margin-left: 26px;
 }
 .input-heading {
   color: #cbd5e1;
@@ -109,4 +113,83 @@
   padding: 5px;
   border-radius: 5px;
   color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .bg-container {
+    height: 100vh;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 90%;
+    padding: 20px;
+  }
+  .top-section {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+    background-size: cover;
+    border: 0px none transparent;
+    border-radius: 10px;
+    padding: 30px;
+    width: 80%;
+    box-sizing: border-box;
+  }
+  .bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 30px;
+    margin-right: 30px;
+    width: 40%;
+    height: 400px;
+  }
+  .history-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 30px;
+    margin-left: 20px;
+    width: 60%;
+    flex-wrap: wrap;
+    height: 400px;
+  }
+  .history-list-container {
+    width: 80%;
+
+    padding: 6px;
+  }
+  .list-container {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    border: 1px solid #cbd5e1;
+    width: 90%;
+  }
+  .type {
+    margin-right: 50px;
+  }
+  .history {
+    color: #475569;
+    font-family: 'Roboto';
+    margin-left: 22px;
+  }
 }
